@@ -4,12 +4,9 @@ from time import sleep
 sense = SenseHat()
 sense.set_rotation(270)
 
-#Select the AstroPi name
 b=(0,0,0)
 w=(255,255,255)
 sense.show_message("My name should be Ada Lovelace", back_colour=w, text_colour=b, scroll_speed=0.065)
-
-#Calculate the humidity and show image
 
 o=(255,130,0)
 b=(0,0,255)
@@ -70,6 +67,7 @@ dry = [
   y, y, y, y, y, y, y, y,
   y, y, y, y, y, y, y, y
 ]
+
 if humid >= 40:
     sense.set_pixels(wet)
 else:
