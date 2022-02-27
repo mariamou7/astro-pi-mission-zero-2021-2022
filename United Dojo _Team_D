@@ -32,14 +32,14 @@ sense.set_pixels(iraq)
 sleep(1)
 
 picture= [
-r,b,b,r,r,b,b,r,
-b,g,g,b,b,g,g,b,
-b,g,g,b,b,g,g,b,
-b,g,g,g,g,g,g,b,
-r,b,g,g,g,g,b,r,
-r,r,b,g,g,b,r,r,
-r,r,r,b,b,r,r,r,
-r,r,r,r,r,r,r,r,
+r, b, b, r, r, b, b, r,
+b, g, g, b, b, g, g, b,
+b, g, g, b, b, g, g, b,
+b, g, g, g, g, g, g, b,
+r, b, g, g, g, g,b, r,
+r, r, b, g, g, b, r, r,
+r, r, r, b, b, r, r, r,
+r, r, r, r, r, r, r, r,
 ]
 sense.set_pixels(picture)
 sleep(1)
@@ -58,14 +58,14 @@ sense.set_pixels(greek_flag)
 sleep(1)
 
 picture= [
-r,r,r,r,r,r,r,r,
-r,r,b,r,r,b,r,r,
-r,b,g,b,b,g,b,r,
-r,b,g,g,g,g,b,r,
-r,r,b,g,g,b,r,r,
-r,r,r,b,b,r,r,r,
-r,r,r,r,r,r,r,r,
-r,r,r,r,r,r,r,r,
+r, r, r, r, r, r, r, r,
+r, r, b, r, r, b, r, r,
+r, b, g, b, b, g, b ,r,
+r, b, g, g, g, g, b, r,
+r, r, b, g, g, b, r, r,
+r, r, r, b, b, r, r, r,
+r, r, r, r, r, r, r, r,
+r, r, r, r, r, r, r, r,
 ] 
 sense.set_pixels(picture)
 sleep(1)
