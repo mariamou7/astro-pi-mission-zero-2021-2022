@@ -2,7 +2,7 @@ from sense_hat import SenseHat
 sense = SenseHat()
 sense.set_rotation(270)
 
-sense.show_message("My name sould be Isaak Newton.", scroll_speed = 0.05)
+sense.show_message("My name should be Isaak Newton.", scroll_speed = 0.05)
 
 sense.show_message("Humidity is", scroll_speed = 0.05)
 
